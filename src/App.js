@@ -47,7 +47,7 @@ const App = () => {
  
 
   {/* Sidebar */}
-  <nav className={`container_menu ${sidebarOpen ? "open" : ""}`}>
+  <div className={`container_menu ${sidebarOpen ? "open" : ""}`}>
   <div className={`logo ${sidebarOpen ? "hide-logo" : ""}`}>
       <img src={logo} alt="Logo" />
       <div className="menu">
@@ -68,7 +68,7 @@ const App = () => {
     <div className="profile">
       <img src={profile_img} alt="profile" />
     </div>
-  </nav>
+  </div>
 
   {/* Main Content */}
   <div className="main_content">
