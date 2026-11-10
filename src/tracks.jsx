@@ -19,7 +19,7 @@ import let_her_go from '../src/audio/Let_Her_Go.mp3';
 import te_bote from '../src/audio/Te_Bote_Remix.mp3';
 
 
-export default [
+const tracks = [
   {
     id: 1,
     title: "Apt.",
@@ -102,3 +102,5 @@ export default [
     duration: "4:22"
   }
 ];
+
+export default tracks;
